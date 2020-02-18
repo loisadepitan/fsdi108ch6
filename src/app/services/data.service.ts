@@ -6,8 +6,10 @@ import { UserListComponent } from '../pages/user-list/user-list.component';
   providedIn: 'root'
 })
 export class DataService {
+  data: any[];
+  
   sampleList = ["Name1", "User2", "Sergio", "Lois", "Gabe", "Sandie", "Leo", "Donald", "Kullen", "Matt"];
-  userList: any;
+  userList = [];
 
 
   constructor() { }
